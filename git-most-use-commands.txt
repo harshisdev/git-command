@@ -1,0 +1,30 @@
+git most usefull command:-
+1.git init
+2.git add .
+3.git commit -m “message”
+4.git status
+5.git remote add origin “[URL]”
+6.git push origin [branch name]
+7.git clone [URL]
+8.git branch [name-of-the-branch]
+9.git branch -D (delete a branch)
+10.git checkout [name-of-the-new-branch]
+11.git checkout -b [name-of-the-new-branch] (this command to create a new branch)
+12.git log (This command is used when we want to check the log for every commit in detail in our repository.)
+13.git log -3 (check the last three logs by giving the command)
+14.git log –graph
+15.git log –graph –pretty=oneline
+16.git stash (This command can be used when we want to save our work without staging or committing the code to our Git repository and want to switch between branches.)
+17.git stash -u (This command is used when we want to stash the untracked files.)
+18.git stash pop (This command is used when we are back on our branch and want to retrieve the code.)
+19.git revert [commit id] (The git revert command can be considered as an ‘undo’ command. However, it does not work as the traditional ‘undo’ operation. It figures out how to invert the changes introduced by the commit and appends a new commit with the resulting inverse content.)
+20.git diff [commit-id-of-version-x] [commit-id-of-version-y]
+21.git merge [another-file-name]
+22.git rebase [base]
+23.git fetch -all
+24.git reset –hard [SOME-COMMIT] 
+25.git pull origin [branch name]
+To set your global username/email configuration:
+26.git config --global user.name "FIRST_NAME LAST_NAME"
+27.git config --global user.email "MY_NAME@example.com"
+28.git config user.email "MY_NAME@example.com"
